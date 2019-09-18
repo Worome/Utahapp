@@ -21,10 +21,10 @@
 
             <ImageView
                 android:id="@+id/fotoSocio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/utahapp_tamanoimagencuadrada"
+                android:layout_height="@dimen/utahapp_tamanoimagencuadrada"
                 android:contentDescription="@string/utahapp_iwfotosocio"
-                tools:srcCompat="@tools:sample/avatars" />
+                app:srcCompat="@drawable/logo_club" />
 
             <Space
                 android:layout_width="match_parent"
@@ -154,7 +154,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="680dp"
-        android:text="Button"
+        android:text="@android:string/VideoView_error_button"
         android:textSize="@dimen/utahapp_tamanotextoboton"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
