@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="utahapp_tamanohint">20sp</dimen>
+    <dimen name="utahapp_tamanotextoboton">18sp</dimen>
+</resources>

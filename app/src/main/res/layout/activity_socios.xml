@@ -36,69 +36,89 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/utahapp_numerosocio"
-                android:inputType="number" />
+                android:inputType="number"
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/Nombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/utahapp_nombre"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/Apellidos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/utahapp_apellidos"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/Nif"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/utahapp_nif"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/Profesion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/utahapp_profesion"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/fechaAlta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="date" />
+                android:hint="@string/utahapp_fechaalta"
+                android:inputType="date"
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/causaAlta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/utahapp_causaalta"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/fechaBaja"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="date" />
+                android:hint="@string/utahapp_fechabaja"
+                android:inputType="date"
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/causaBaja"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/utahapp_causabaja"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
 
             <Spinner
                 android:id="@+id/Cargo"
@@ -110,14 +130,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="date" />
+                android:hint="@string/utahapp_fechaposesion"
+                android:inputType="date"
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/fechaCese"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="date" />
+                android:hint="@string/utahapp_fechacese"
+                android:inputType="date"
+                android:textSize="@dimen/utahapp_tamanohint"
+                android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>
 
@@ -129,6 +155,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="680dp"
         android:text="Button"
+        android:textSize="@dimen/utahapp_tamanotextoboton"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -140,6 +168,8 @@
         android:layout_marginLeft="110dp"
         android:layout_marginTop="680dp"
         android:text="Button"
+        android:textSize="@dimen/utahapp_tamanotextoboton"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/scrollView2" />
 
@@ -151,6 +181,8 @@
         android:layout_marginLeft="202dp"
         android:layout_marginTop="680dp"
         android:text="Button"
+        android:textSize="@dimen/utahapp_tamanotextoboton"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/btnNuevo"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -162,6 +194,8 @@
         android:layout_marginLeft="304dp"
         android:layout_marginTop="680dp"
         android:text="Button"
+        android:textSize="@dimen/utahapp_tamanotextoboton"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/btnNuevo"
         app:layout_constraintTop_toTopOf="@+id/scrollView2" />
 
