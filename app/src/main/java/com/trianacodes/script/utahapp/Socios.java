@@ -21,9 +21,9 @@ public class Socios extends AppCompatActivity {
         SeleccionCargos = findViewById(R.id.Cargo);
 
         ArrayAdapter<String> adaptador_Cargos = new ArrayAdapter<String>(this,
-                android.R.layout.simple_spinner_item,CargosArray);
+               R.layout.spinner_item_utahapp_cargos ,CargosArray);
         SeleccionCargos.setAdapter(adaptador_Cargos);
 
     }
-    
+
 }

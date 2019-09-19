@@ -3,4 +3,5 @@
     <dimen name="utahapp_tamanohint">20sp</dimen>
     <dimen name="utahapp_tamanotextoboton">18sp</dimen>
     <dimen name="utahapp_tamanoimagencuadrada">150dp</dimen>
+    <dimen name="utahapp_tamanospinner">19sp</dimen>
 </resources>
